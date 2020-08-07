@@ -8,11 +8,11 @@ class Formatter {
   }
   static titleize(string) {
     let words = string.split(' ');
-   
+   let a='a an but of and for at by from'
 
     for (let n = 0; n < words.length; n++) {
       
-       if( words[n]=== 'a'||'an'|| 'but'|| 'of'|| 'and'|| 'for'||'at'|| 'by'||'from'){
+       if( words[n].inc ){
          words[n] = words[n]
        }
        else{
