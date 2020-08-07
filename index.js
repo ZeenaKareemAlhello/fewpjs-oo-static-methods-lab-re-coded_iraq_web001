@@ -8,7 +8,7 @@ class Formatter {
   }
   static titleize(string) {
     let words = string.split(' ');
-   let a='a an but of and for at by from'
+   let a=['a' ,'an', 'but', 'of', 'and' ,'for', 'at' ,'by' ,'from']
 
     for (let n = 0; n < words.length; n++) {
       
