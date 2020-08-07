@@ -12,7 +12,7 @@ class Formatter {
 
     for (let n = 0; n < words.length; n++) {
       
-       if( words[n]== 'a'||'an'|| 'but'|| 'of'|| 'and'|| 'for'||'at'|| 'by'||'from'){
+       if( words[n]=== 'a'||'an'|| 'but'|| 'of'|| 'and'|| 'for'||'at'|| 'by'||'from'){
          words[n] = words[n]
        }
        else{
