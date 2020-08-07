@@ -12,7 +12,7 @@ class Formatter {
 
     for (let n = 0; n < words.length; n++) {
       
-       if( a.includes(words[n])){
+       if( a.includes(words[n]) && n!==0){
          words[n] = words[n]
        }
        else{
