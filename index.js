@@ -6,7 +6,7 @@ class Formatter {
   static sanitize(name){
  return  name.replace(/[^A-Za-z-d-\s']+/g, '')
   }
-  static titleize(name) {
+  static titleize(string) {
     let words = string.split(' ');
     for (let n = 0; n < words.length; n++) {
       words[n] = words[n].charAt(0).toUpperCase() + words[n].slice(1);
